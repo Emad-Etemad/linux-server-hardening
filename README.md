@@ -21,7 +21,7 @@ The objective is to develop hands-on experience with Linux administration, user 
 - Understand Linux users, groups and permissions.
 - Configure secure SSH access.
 - Implement SSH key-based authentication.
-- Disable direct root SSH login.
+- Further restrict root SSH access.
 - Configure UFW firewall.
 - Install and configure Fail2ban.
 - Apply security updates.
@@ -33,16 +33,22 @@ The objective is to develop hands-on experience with Linux administration, user 
 |---|---|
 | System inspection | Completed |
 | System updates | Completed (phased updates pending) |
-| Users and permissions | Not started |
-| SSH configuration | Not started |
-| SSH key authentication | Not started |
+| Users and permissions | Completed |
+| SSH configuration | Completed |
+| SSH key authentication | Completed |
 | Firewall configuration | Not started |
 | Fail2ban | Not started |
-| Security verification | Not started |
+| Security verification | In progress |
 
 ## Documentation
 
-Detailed implementation notes, commands, configuration changes and verification results will be maintained in the `documentation/` directory.
+Detailed implementation notes, commands, configuration changes and verification results are maintained in the `documentation/` directory.
+
+- [01 – System baseline inspection](documentation/01-system-baseline.md)
+- [02 – System updates](documentation/02-system-updates.md)
+- [03 – Users and permissions](documentation/03-users-and-permissions.md)
+- [04 – SSH configuration](documentation/04-ssh-configuration.md)
+- [05 – SSH key authentication](documentation/05-ssh-key-authentication.md)
 
 ## Disclaimer
 

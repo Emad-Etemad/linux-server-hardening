@@ -19,12 +19,11 @@ The objective is to develop hands-on experience with Linux administration, user 
 ## Project Objectives
 
 - Understand Linux users, groups and permissions.
-- Configure secure SSH access.
-- Implement SSH key-based authentication.
-- Further restrict root SSH access.
+- Configure secure SSH access and key-based authentication.
+- Disable direct root SSH login and password-based SSH authentication.
 - Configure UFW firewall.
-- Install and configure Fail2ban.
-- Apply security updates.
+- Configure Fail2ban for SSH protection.
+- Apply and verify security updates.
 - Verify and document security configurations.
 
 ## Project Progress
@@ -38,7 +37,7 @@ The objective is to develop hands-on experience with Linux administration, user 
 | SSH key authentication | Completed |
 | Firewall configuration | Completed |
 | Fail2ban SSH protection | Completed |
-| Security verification | In progress |
+| Security verification | Core checks completed; update and log review pending |
 
 ## Documentation
 
@@ -51,6 +50,7 @@ Detailed implementation notes, commands, configuration changes and verification 
 - [05 – SSH key authentication](documentation/05-ssh-key-authentication.md)
 - [06 – UFW firewall configuration](documentation/06-ufw-firewall.md)
 - [07 – Fail2ban SSH protection](documentation/07-fail2ban-ssh-protection.md)
+- [08 – Security verification](documentation/08-security-verification.md)
 
 ## Disclaimer
 

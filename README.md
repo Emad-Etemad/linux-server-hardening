@@ -36,8 +36,8 @@ The objective is to develop hands-on experience with Linux administration, user 
 | Users and permissions | Completed |
 | SSH configuration | Completed |
 | SSH key authentication | Completed |
-| Firewall configuration | Not started |
-| Fail2ban | Not started |
+| Firewall configuration | Completed |
+| Fail2ban SSH protection | Completed |
 | Security verification | In progress |
 
 ## Documentation
@@ -49,6 +49,8 @@ Detailed implementation notes, commands, configuration changes and verification 
 - [03 – Users and permissions](documentation/03-users-and-permissions.md)
 - [04 – SSH configuration](documentation/04-ssh-configuration.md)
 - [05 – SSH key authentication](documentation/05-ssh-key-authentication.md)
+- [06 – UFW firewall configuration](documentation/06-ufw-firewall.md)
+- [07 – Fail2ban SSH protection](documentation/07-fail2ban-ssh-protection.md)
 
 ## Disclaimer
 
